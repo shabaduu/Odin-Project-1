@@ -32,6 +32,7 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 .left {
@@ -52,9 +53,9 @@ button {
 
 .right {
     flex: 1 1 auto;
-    background-color: yellow;
-    width: 400px;
-    height: 150px;
+    background-color: grey;
+    width: 200px;
+    height: 200px;
 }
 
 img {
@@ -80,6 +81,7 @@ p {
     align-items: center;
     gap: 24px;
     padding-top: 24px;
+    padding-bottom: 36px;
 }
 
 .two-header {
@@ -112,8 +114,24 @@ p {
 }
 
 .three {
-    background-color: blue;
+    background-color: #E5E7EB;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 20%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotee {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
 
 .four {
@@ -129,5 +147,5 @@ p {
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
 }
